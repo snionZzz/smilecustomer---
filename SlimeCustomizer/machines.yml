@@ -1,0 +1,712 @@
+GONGYE1_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l无尽基础工厂'
+  machine-lore:
+  - '&b&l基础版无尽工厂'
+  block-type: SKULLe69ebb6c454c2e20d2f5317aa8f09cd8333614da9eb0dcc27cfdc7fa0000c4a1
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 512
+    energy-buffer: 2048
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SINGULARITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INGOT_FORMER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SINGULARITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INGOT_FORMER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GONGYE1_ITEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INGOT_FORMER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SINGULARITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INGOT_FORMER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SINGULARITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_INGOT
+          amount: 4
+        '2':
+          type: SLIMEFUN
+          id: FERROSILICON
+          amount: 4
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MACHINE_CIRCUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGSTEEL
+          amount: 4
+        '2':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 4
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGSTEEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE2_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l无尽高级工厂'
+  machine-lore:
+  - '&b&l高级版无尽工厂'
+  block-type: SKULL58aa06e86d8671eaf9ade5b6eb9e028ae58102b993fc9613b1055b14ae9121f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1042
+    energy-buffer: 5120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GONGYE1_MACHINE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: DECOMPRESSOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GONGYE1_MACHINE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: DECOMPRESSOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GONGYE2_ITEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: DECOMPRESSOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: GONGYE1_MACHINE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DECOMPRESSOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: GONGYE1_MACHINE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: REINFORCED_ALLOY_INGOT
+          amount: 4
+        '2':
+          type: SLIMEFUN
+          id: MACHINE_CIRCUIT
+          amount: 4
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MACHINE_PLATE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MACHINE_PLATE
+          amount: 2
+        '2':
+          type: SLIMEFUN
+          id: MACHINE_CIRCUIT
+          amount: 2
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MACHINE_CORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE3_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l无尽终极工厂'
+  machine-lore:
+  - '&b&l终极版无尽工厂'
+  block-type: SKULLafccbc9396ddc2a1b07846842c0d6561db13d1cb45d6299c2fd981a231f05744
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2048
+    energy-buffer: 6667
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GONGYE3_ITEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_MACHINE_CIRCUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 2
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_MACHINE_CORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE4_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l神秘祭坛I'
+  machine-lore:
+  - '&b&l神秘的祭坛'
+  block-type: SKULLc56f2c855ea4a8cec4b77aa5164708e5efd96b2ac168a708e563cf4fbe9f8985
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1042
+    energy-buffer: 5120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_ALTAR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: AUTO_ENCHANTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_ALTAR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: AUTO_ENCHANTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: VOID_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: AUTO_ENCHANTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ALTAR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: AUTO_ENCHANTER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ALTAR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_3
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_4
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_4
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE5_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l神秘祭坛II'
+  machine-lore:
+  - '&b&l神秘的祭坛'
+  block-type: SKULLc56f2c855ea4a8cec4b77aa5164708e5efd96b2ac168a708e563cf4fbe9f8985
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2048
+    energy-buffer: 5222
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_ENCHANTER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GONGYE4_MACHINE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_ENCHANTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GONGYE4_MACHINE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GONGYE4_MACHINE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ADVANCED_ENCHANTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: GONGYE4_MACHINE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ADVANCED_ENCHANTER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PURIFIED_BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: POSEIDONS_BLESSING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE6_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l神秘祭坛III'
+  machine-lore:
+  - '&b&l神秘的祭坛'
+  block-type: SKULLc56f2c855ea4a8cec4b77aa5164708e5efd96b2ac168a708e563cf4fbe9f8985
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 3069
+    energy-buffer: 7677
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CIRCUIT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CELESTIAL_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CURSED_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE7_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&b&l神秘祭坛IV'
+  machine-lore:
+  - '&b&l神秘的祭坛'
+  block-type: SKULLc56f2c855ea4a8cec4b77aa5164708e5efd96b2ac168a708e563cf4fbe9f8985
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1042
+    energy-buffer: 5120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: EQUANIMOUS_GEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EQUANIMOUS_GEM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_LUMP_5
+          amount: 8
+        '2':
+          type: SLIMEFUN
+          id: EQUANIMOUS_GEM
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: DEMONIC_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GONGYE8_MACHINE:
+  category: gongye_machine_category
+  machine-name: '&a&l辐射驱动机V1'
+  machine-lore:
+  - '&b&l辐射少数物品!'
+  block-type: SKULL73ac7aea402ce629a4833a45228df45a5062d112f0f826c3c343cf068091cbea
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1042
+    energy-buffer: 5120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GONGYE5_ITEM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: URANIUM_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GONGYE5_ITEM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GONGYE5_MACHINE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: GONGYE1_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: GONGYE1_ITEM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1

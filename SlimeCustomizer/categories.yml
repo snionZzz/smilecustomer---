@@ -1,0 +1,49 @@
+# 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Categories
+slime_customizer:
+  type: normal
+  category-name: "&c普通分类"
+  category-item: REDSTONE_LAMP
+nested_group:
+  type: nested
+  category-name: "&c父分类"
+  category-item: BEDROCK
+sub_group:
+  type: sub
+  category-name: "&c子分类"
+  category-item: DIRT
+  parent: nested_group
+seasonal_group:
+  type: seasonal
+  category-name: "&c季节性分类"
+  category-item: DIAMOND
+  month: 9
+locked_group:
+  type: locked
+  category-name: "&c锁定分类"
+  category-item: DIAMOND
+  parents:
+    - slimefun:basic_machines
+gongye_category:
+  category-name: '§x§c§c§f§3§f§f《工§x§d§c§f§3§f§f业§x§e§c§f§3§f§f驱§x§f§c§f§3§f§f动§x§f§c§e§3§f§f1§x§f§c§d§3§f§f:§x§f§c§c§3§f§f特§x§f§c§b§3§f§f供§x§f§c§b§3§f§f版》'
+  category-item: SKULL8cdf3a9fca65a43691a4669be5ab1de4b2c659f431d89db2e3c0ecd2e095e2d0
+  type: nested
+gongye_gonggao_category:
+  parent: gongye_category
+  category-name: '§x§c§c§f§3§f§f工§x§d§c§f§3§f§f业§x§e§c§f§3§f§f驱§x§f§c§f§3§f§f动-&c公告'
+  category-item: SKULLda88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
+  type: sub
+gongye_item_category:
+  parent: gongye_category
+  category-name: '§x§c§c§f§3§f§f工§x§d§c§f§3§f§f业§x§e§c§f§3§f§f驱§x§f§c§f§3§f§f动-&e材料'
+  category-item: SKULL920b3389f24db2a4cf6e9e54b272bb46315bd936eb927bd3f26c7429688bea6a
+  type: sub
+gongye_machine_category:
+  parent: gongye_category
+  category-name: '§x§c§c§f§3§f§f工§x§d§c§f§3§f§f业§x§e§c§f§3§f§f驱§x§f§c§f§3§f§f动-&b机器'
+  category-item: SKULLe661e583a6fde9ca6e1b3c0478697199fd77f8b4923d6c56222d3e55a73b1733
+  type: sub
+gongye_material_category:
+  parent: gongye_category
+  category-name: '§x§c§c§f§3§f§f工§x§d§c§f§3§f§f业§x§e§c§f§3§f§f驱§x§f§c§f§3§f§f动-&a反应堆'
+  category-item: SKULL256590d49b700a2a4451030e29a0f14d3936294cabf7fce9c98f24d4c28d2493
+  type: sub
